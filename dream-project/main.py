@@ -26,11 +26,11 @@ class BotHandler:
         if len(get_result) > 0:
             last_update = get_result[-1]
         else:
-            last_update = get_result[len(get_result)]
+            last_update = get_result[len(get_result)]1021597700
 
         return last_update
 
-greet_bot = BotHandler('1021597700:AAHUY3u7jw5efzrFHvtR-JEMoRMzx000-fg')  
+greet_bot = BotHandler('123')  
 greetings = ('здравствуй', 'привет', 'ку', 'здорово')  
 now = datetime.datetime.now()
 
